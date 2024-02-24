@@ -1,0 +1,185 @@
+.job-bg-container {
+  background-color: black;
+  min-height: 88vh;
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+}
+.job-container1 {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+.job-container2 {
+  width: 70vw;
+  padding-right: 30px;
+}
+.job-input-container {
+  display: flex;
+  background-color: black;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #b6c5ff;
+  width: 330px;
+  height: 30px;
+  border-radius: 2px;
+}
+.job-input-container1 {
+  display: flex;
+  background-color: black;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #b6c5ff;
+  width: 300px;
+  height: 30px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+.job-input1 {
+  background-color: transparent;
+  height: 30px;
+  border-color: none;
+  border-width: 0px;
+  width: 280px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.search-icon-container {
+  background-color: #272727;
+  width: 50px;
+  padding-top: 4px;
+  padding-left: 18px;
+}
+.search-icon {
+  color: #ffffff;
+}
+.job-hr1 {
+  height: 2px;
+  width: 240px;
+  margin-left: 5px;
+  margin-top: 25px;
+  background-color: #b6c5ff;
+}
+.job-hr2 {
+  height: 2px;
+  width: 240px;
+  margin-left: 5px;
+  margin-top: 0px;
+  background-color: #b6c5ff;
+}
+.job-type {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 18px;
+}
+.type-p1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.type-p2 {
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.type-list {
+  display: flex;
+  list-style-type: none;
+  margin-left: -38px;
+  margin-top: -20px;
+}
+
+.type-check {
+  margin-top: 0px;
+  width: 18px;
+  margin-right: 13px;
+}
+.profile-fail-container {
+  background-color: black;
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.profile-retry-btn {
+  width: 100px;
+  height: 30px;
+  margin-top: 18px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  border-width: 0px;
+}
+.loader-container {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container2 {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.job-fail-h1 {
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.job-fail-p1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-top: 0px;
+}
+.no-jobs-img {
+  width: 420px;
+  height: 400px;
+}
+@media screen and (min-width: 576px) {
+  .job-input-container1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .job-bg-container {
+    background-color: black;
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .job-container1 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+  .job-container2 {
+    width: 100vw;
+    padding-right: 30px;
+  }
+  .job-input-container {
+    display: none;
+  }
+}

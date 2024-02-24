@@ -1,0 +1,95 @@
+.element-list-container {
+  background-color: #272727;
+  border-radius: 10px;
+  margin-left: -40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.element-img1 {
+  width: 60px;
+  height: 60px;
+}
+.element-container1 {
+  display: flex;
+}
+.con1 {
+  display: flex;
+  margin-top: 0px;
+}
+.con2 {
+  display: flex;
+  margin-right: 40px;
+}
+.con3 {
+  display: flex;
+  justify-content: space-between;
+}
+.element-con1 {
+  padding: 20px;
+}
+.element-h1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-top: -20px;
+  font-size: 25px;
+}
+.element-star-icon {
+  color: orange;
+  margin-top: -5px;
+}
+.element-p1 {
+  margin-top: -7.5px;
+  margin-left: 6px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.element-location-icon {
+  color: #ffffff;
+  width: 20px;
+  height: 30px;
+  margin-top: -10px;
+}
+.element-p2 {
+  color: #ffffff;
+
+  margin-left: 8px;
+  margin-top: -5px;
+}
+.element-hr {
+  width: 99%;
+  background-color: #b6c5ff;
+  height: 1px;
+}
+.element-h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.element-p3 {
+  color: #ffffff;
+  font-weight: 350;
+}
+.package {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: bold;
+  margin-top: -5px;
+  margin-right: 5px;
+}
+.linky {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .package {
+    color: #ffffff;
+    font-family: 'roboto';
+    font-weight: bold;
+    margin-top: -2px;
+    margin-right: 5px;
+  }
+}

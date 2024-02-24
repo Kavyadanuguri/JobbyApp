@@ -1,0 +1,68 @@
+.home-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+}
+.home-h1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 65px;
+  margin-left: 30px;
+  width: 700px;
+}
+.home-p2 {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-size: 25px;
+  margin-left: 30px;
+  width: 45%;
+  margin-top: 0px;
+}
+.home-btn {
+  width: 120px;
+  margin-left: 30px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  border-width: 0px;
+}
+@media screen and (max-width: 576px) {
+  .home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-h1 {
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 30px;
+    margin-left: 20px;
+    width: 300px;
+  }
+  .home-p2 {
+    font-family: 'roboto';
+    color: #f1f5f9;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 300px;
+    margin-top: 0px;
+  }
+  .home-btn {
+    width: 100px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #6366f1;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    border-width: 0px;
+  }
+}

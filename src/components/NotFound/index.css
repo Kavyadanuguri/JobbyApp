@@ -1,0 +1,19 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+}
+.not-h1 {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.not-p1 {
+  color: #f1f5f9;
+  font-family: 'roboto';
+  margin-top: 10px;
+  text-align: center;
+}
